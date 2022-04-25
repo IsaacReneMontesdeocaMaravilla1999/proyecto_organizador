@@ -1,0 +1,71 @@
+
+/*#img-tamano{
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+} */
+.estadisticas{
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.usuarios_distrito{
+    background-color: #F1E3E2;
+}
+
+
+#ranking{
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+#ranking_inicio{
+    width: 700px;
+    height: 350px;
+    background-color: aquamarine;
+    
+}
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}

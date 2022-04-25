@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="chart/chart.min.js"></script>
+    <title>Proyecto Morena - Integrantes</title>
+  </head>
+  <body>
+
+    <!--MENU-->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DBA8A3;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img width="90" height="40" src="img/morena.png" alt="MORENA"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Cerrar Sesion</a>
+                      </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Integrantes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                  </li>
+                
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+   
+<!--COORDINADOR-->
+
+<br>
+    <section>
+      <div class="container border border-primary justify-content-start"> <br>
+
+     
+        <div class="flex-container">
+            <div><div class="container">
+              <div class="row">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/usuario1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ISAAC RENE MONTES DE OCA MARAVILLA</h5>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput">Cambiar imagen:</label>
+                        <input type="file" class="form-control" id="formGroupExampleInput" placeholder="Corregir nombre">
+                      </div>
+                    </div> 
+                  </div><br>
+                </div>                
+    </div>
+</div>
+
+<form style="margin-left: 50px;">
+    <div class="form-group">
+      <label for="exampleInputEmail1">NOMBRE: </label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ISAAC RENE MONTES DE OCA MARAVILLA"  size="60">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">TELEFONO: </label>
+      <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="722-554-7013">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">RUTA: </label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="RUTA 4">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">DOMICILIO </label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="VICENTE GUERRERO # CACALOMACAN, TOLUCA">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">SECCION: </label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="5425">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">CUENTA BANCARIA: </label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="018151515123456789">
+      </div>
+    <br>
+    <a type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm">ACTUALIZAR DATOS</a>
+    <a type="submit" style="margin: 2px;" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">ELIMINAR USUARIO</a>
+  </form>
+</section> <br>
+
+<!--............MODAL...........-->
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content" style="background-color: forestgreen; color: white;">
+      Los datos fueron actualizados con exito!
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ELIMINAR USUARIO</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ¿Esta seguro que desea eliminar a este usuario de forma permanente?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--............................-->
+
+<!--ESTADISTICAS-->
+        <div>
+            <h1 class="container text-center">Estadisticas</h1>
+        </div>
+
+        <div class="container">
+          <div class="mytabs">
+        <input type="radio" id="tabfree" name="mytabs" checked="checked">
+        <label for="tabfree">CONVENCIDOS</label>
+        <div class="tab">
+          <h1>256 CONVENCIDOS</h1>
+          <p><b>RUTA 4</b>  CACALOMACAN</p>
+        </div>
+    
+        <input type="radio" id="tabsilver" name="mytabs">
+        <label for="tabsilver">COMITES</label>
+        <div class="tab">
+          <h1>30 COMITES</h1>
+          <div class="container row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://1plana.com/wp-content/uploads/2021/08/Screenshot_20210826-143322_Gallery.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Camacho Ortiz Victor Manuel</h5>
+                <p class="card-text">Domicilio: Conj. Rinconada del pilar 50227 Toluca, Mex</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Seccion:</b>  5281</li>
+                <li class="list-group-item"><b>Telefono:</b>  729-012-5551</li>
+                <li class="list-group-item"><b>Colonia:</b> SAN MATEO OXTOTITLAN</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Llamar</a>
+                <a href="#" class="card-link">Elimiar</a>
+              </div>
+            </div>
+
+            <div class="card float-right" style="width: 18rem;">
+              <img class="card-img-top" src="https://centralelectoral.ine.mx/wp-content/uploads/2018/12/Credencial-de-Elector.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hernan Cristante Mandarino</h5>
+                <p class="card-text">Domicilio: Niños Heroes #12. Capultitlan 50260 Toluca, Mex</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Seccion:</b>  5260</li>
+                <li class="list-group-item"><b>Telefono:</b>  729-300-5810</li>
+                <li class="list-group-item"><b>Colonia:</b> SEMINARIO</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Llamar</a>
+                <a href="#" class="card-link">Elimiar</a>
+              </div>
+            </div>
+
+            <div class="card float-right" style="width: 18rem;">
+              <img class="card-img-top" src="https://imagenes.20minutos.com.mx/files/article_amp/uploads/2019/06/19/15525.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Camacho Ortiz Victor Manuel</h5>
+                <p class="card-text">Domicilio: Conj. Rinconada del pilar 50227 Toluca, Mex</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Seccion:</b>  5281</li>
+                <li class="list-group-item"><b>Telefono:</b>  729-012-5551</li>
+                <li class="list-group-item"><b>Colonia:</b> SAN MATEO OXTOTITLAN</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Llamar</a>
+                <a href="#" class="card-link">Elimiar</a>
+              </div>
+            </div>
+
+            <div class="card float-right" style="width: 18rem;">
+              <img class="card-img-top" src="https://pbs.twimg.com/media/B-4xFgHUcAAnwtn.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hernan Cristante Mandarino</h5>
+                <p class="card-text">Domicilio: Niños Heroes #12. Capultitlan 50260 Toluca, Mex</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Seccion:</b>  5260</li>
+                <li class="list-group-item"><b>Telefono:</b>  729-300-5810</li>
+                <li class="list-group-item"><b>Colonia:</b> SEMINARIO</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Llamar</a>
+                <a href="#" class="card-link">Elimiar</a>
+              </div>
+            </div>
+
+            <div class="card float-right" style="width: 18rem;">
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Imagen_Ilustrativa_de_la_Credencial_de_Elector.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Camacho Ortiz Victor Manuel</h5>
+                <p class="card-text">Domicilio: Conj. Rinconada del pilar 50227 Toluca, Mex</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Seccion:</b>  5281</li>
+                <li class="list-group-item"><b>Telefono:</b>  729-012-5551</li>
+                <li class="list-group-item"><b>Colonia:</b> SAN MATEO OXTOTITLAN</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Llamar</a>
+                <a href="#" class="card-link">Elimiar</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    
+        <input type="radio" id="tabgold" name="mytabs">
+        <label for="tabgold">LLAMADAS</label>
+        <div class="tab">
+          <h2>TOTAL DE LLAMADAS REALIZADAS <b>254</b></h2>
+            <p>Llamadas exitosas: <b>106</b></p>
+            <p>Llamadas fallidas: <b>148</b></p>
+        </div>
+    
+      </div>
+        </div>
+
+        
+
+              <!--CONTACTO-->
+            <br>   <div class="container text-center">
+                    <h2>CONTACTO</h2>
+
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" >
+                      <img src="img/morena.png" width="90" height="40" class="d-block me-2"></img>
+                      <span class="fs-5">MORENA TOLUCA</span>
+                    </a>
+
+                    <ul class="list-unstyled small text-muted">
+                      <li class="mb-2">Somos los movilizadores del distrito 34 en la zona de Toluca, para mas informacion contactar a este numero sobre el sitio comunicarce a <a href="/">722-554-7013</a>.</li>
+                      <li class="mb-2">DISTRITO 34</li> 
+                      <li class="mb-2">Sitio desarrollado por: <b>ING. ISAAC RENE MONTES DE OCA MARAVILLA</b></li>
+                    </ul>
+
+                </div>
+
+                
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
